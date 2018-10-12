@@ -1,6 +1,4 @@
 body {
-  // @include background-image(linear-gradient(top, rgba(#111,1) 0%,rgba(#222,1) 50%,rgba(#111,1) 100%));
-  // font-family: "moon-r";
   font-weight: 100;
   color: black;
   background: #9fcde9;
@@ -8,5 +6,47 @@ body {
   width: 100vw;
   height: 100vh;
 }
+
+.no-padding{
+  .col-md-12 { padding: 0;}
+}
+
+
+// .headline{
+//   & h1{
+//   position: relative;
+//   display: inline-block;
+//   padding: 0 45px;
+//   }
+
+//   & h1:before{
+//   content: '';
+//   position: absolute;
+//   top: 50%;
+//   display: inline-block;
+//   width: 44px;
+//   height: 2px;
+//   background-color: black;
+//   -moz-transform: rotate(-60deg);
+//   -webkit-transform: rotate(-60deg);
+//   -ms-transform: rotate(-60deg);
+//   transform: rotate(-60deg);
+//   }
+//   & h1:after{
+//     content: '';
+//     position: absolute;
+//     top: 50%;
+//     display: inline-block;
+//     width: 44px;
+//     height: 2px;
+//     background-color: black;
+//     -moz-transform: rotate(-60deg);
+//     -webkit-transform: rotate(-60deg);
+//     -ms-transform: rotate(-60deg);
+//     transform: rotate(-75deg);
+//   }
+//   & h1:before {left:0;}
+//   & h1:after {right: 0;}
+// }
 
 @import "_img.scss";
