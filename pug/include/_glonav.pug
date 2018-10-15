@@ -1,3 +1,15 @@
-nav.navbar
-    a(href="#").navbar-brand
-        img(src="img/title.png", alt="title",width="auto" height="50")
+.container.no-padding
+    nav.navbar.navbar-expand-lg.navbar-light
+        a(href="/").navbar-brand
+            img(src="img/title.png", alt="title",width="auto" height="40")
+        button(type="button", data-toggle="collapse", data-target="#navbarNav", aria-controls="navbarNav", aria-expanded="false").navbar-toggler
+            span.navbar-toggler-icon
+        #navbarNav.collapse.navbar-collapse
+            ul.navbar-nav
+                li.nav-item.active
+                    a(href="#download").nav-link Home
+                        span.sr-only （現在位置）
+                li.nav-item
+                    a(href="#download").nav-link Download
+                li.nav-item
+                    a(href="https://goo.gl/forms/SozsHD07pxUEnqiw2", target="_blank").nav-link Contact

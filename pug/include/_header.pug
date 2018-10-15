@@ -1,4 +1,6 @@
-#header.container.mb-5
+#header.container.mb-4
     .row.no-padding
         .col-md-12
-            img(src="img/header_bg.png", alt="header_bg").img-fluid
+            picture
+                source(media="(max-width: 768px)", srcset="img/header_bg.png").img-fluid.d-block.mx-auto
+                img(src="img/header_bg_pc.png", alt="header_bg_pc").img-fluid.d-block.mx-auto
