@@ -1,0 +1,12 @@
+.navbar{
+    padding: 0%;
+    margin: 2rem 0;
+}
+
+/* スマホ　767px以下 */
+@media only screen and (max-width: 767px){
+    .navbar{
+        padding: 0%;
+        margin: 1rem 0;
+    }
+}

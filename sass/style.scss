@@ -1,13 +1,3 @@
-@font-face {
-    font-family: "moon-r";
-    src:url("../font/MOON/Moon2.0-Regular.otf") format("opentype");
-}
-
-html{
-    font-family: "moon-r";
-
-}
-
 @import "include/_body.scss";
-@import "include/_header.scss";
+@import "include/_glonav.scss";
 @import "include/_contents.scss";
