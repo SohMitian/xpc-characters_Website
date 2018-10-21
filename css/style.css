@@ -1,11 +1,4 @@
 @charset "UTF-8";
-@font-face {
-  font-family: "moon-r";
-  src: url("../font/MOON/Moon2.0-Regular.otf") format("opentype"); }
-
-html {
-  font-family: "moon-r"; }
-
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
   font-weight: 100;
@@ -27,6 +20,9 @@ body {
 .navbar {
   padding: 0%;
   margin: 2rem 0; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: black; }
 
 /* スマホ　767px以下 */
 @media only screen and (max-width: 767px) {
@@ -68,3 +64,6 @@ body {
     transform: translate(-50%, -50%);
     margin: 0;
     /*文字の装飾は省略*/ }
+
+#footer {
+  background: rgba(0, 0, 0, 0.2); }
