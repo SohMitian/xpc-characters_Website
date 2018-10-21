@@ -1,4 +1,4 @@
-.container.no-padding
+.container
     nav.navbar.navbar-expand-lg.navbar-light
         a(href="/").navbar-brand
             img(src="img/title.png", alt="title",width="auto" height="40")
@@ -6,11 +6,10 @@
             span.navbar-toggler-icon
         #navbarNav.collapse.navbar-collapse
             ul.navbar-nav
-                li.nav-item.active
-                    a(href="/").nav-link Home
-                        span.sr-only （現在位置）
                 li.nav-item
-                    a(href="/#download").nav-link Download
+                    a(href="/").nav-link Home
+                li.nav-item
+                    a(href="download.html").nav-link Download
                 li.nav-item
                     a(href="guideline.html").nav-link Guideline
                 li.nav-item
